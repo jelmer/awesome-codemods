@@ -1,34 +1,40 @@
 # Awesome Code Fixers
 
-A collection of tools that don't just point out what needs to be done
+A curated list of tools that don't just point out what needs to be done
 (like static code analyzers or linters) but actually fix your code. This means
 they can e.g. be used in pre-commit scripts or with tools like
 [silver-platter](https://github.com/jelmer/silver-platter).
 
+Code formatters are intentionally excluded here but can be found in
+https://github.com/rishirdua/awesome-code-formatters.
+
 ## By Environment
 
 [**Python**](#python)
-
+[**C++**](#c++)
+[**Go**](#go)
 [**Debian**](#debian)
 
 ### Python
 
-1. [**black**](https://github.com/psf/black)
-2. [**yesqa**](https://github.com/asottile/yesqa)
-3. [**pyupgrade**](https://github.com/assotile/pyupgrade)
-4. [**reorder_python_imports**](https://github.com/assotile/reorder_python_imports)
-5. [**teyit**](https://github.com/isidentical/teyit)
-6. [**blacken-docs**](https://github.com/asottile/blacken-docs)
-7. [**setup-py-upgrade**](https://github.com/asottile/setup-py-upgrade)
+1. [**yesqa**](https://github.com/asottile/yesqa) - Remove unnecessary ``#noqa`` comments
+2. [**pyupgrade**](https://github.com/assotile/pyupgrade) - upgrade syntax for newer versions of the language
+3. [**reorder_python_imports**](https://github.com/assotile/reorder_python_imports) - automatically reorder imports
+4. [**teyit**](https://github.com/isidentical/teyit) - use recommended style for assert statements
+5. [**blacken-docs**](https://github.com/asottile/blacken-docs) - run black on code fragements in documentation
+6. [**setup-py-upgrade**](https://github.com/asottile/setup-py-upgrade) - upgrade setup.py to new metadata syntax
 
 ### C++
 
-1. CLangTidy
+### Go
 
 ### Debian
 
-1. [**lintian-brush**](https://salsa.debian.org/jelmer/lintian-brush)
-2. [**cme**](https://packages.debian.org/cme)
+1. [**lintian-brush**](https://salsa.debian.org/jelmer/lintian-brush) - Fix issues reported by lintian
+2. [**deb-scrub-obsolete**](https://salsa.debian.org/jelmer/lintian-brush) - Remove obsolete maintainer script / control file entries
+3. [**apply-multiarch-hints**](https://salsa.debian.org/jelmer/lintian-brush) - Apply multi-arch fixes from https://multiarch.debian.net/
+4. [**deb-new-upstream**](https://github.com/breezy-team/breezy) - Import new upstream releases or snapshots
+5. [**cme**](https://packages.debian.org/cme) - Fix various common issues in Debian packages
 
 ## Libraries for refactoring
 
@@ -36,12 +42,17 @@ they can e.g. be used in pre-commit scripts or with tools like
 
 ## Tools for invoking code fixers
 
-1. [**pre-commit**](https://www.pre-commit.com/)
-2. [**routine-update**](https://salsa.debian.org/science-team/routine-update)
-3. [**silver-platter**](https://github.com/jelmer/silver-platter)
-4. [**all-repos**](https://github.com/asottile/all-repos)
+1. [**pre-commit**](https://www.pre-commit.com/) - Run formatters during git pre-commit
+2. [**silver-platter**](https://github.com/jelmer/silver-platter) - Run codefixers against remote repositories and publish changes (creating PRs/pushing)
+3. [**all-repos**](https://github.com/asottile/all-repos) - Run fixers across a set of local repositories
+
+## Fix aggregators
+
+1. [**routine-update**](https://salsa.debian.org/science-team/routine-update) - run various code fixers for Debian packages
 
 ## Meta
+
+See also the list of [awesome code formatters](https://github.com/rishirdua/awesome-code-formatters).
 
 **License**
 
