@@ -36,9 +36,10 @@ https://github.com/rishirdua/awesome-code-formatters.
 4. [**deb-new-upstream**](https://github.com/breezy-team/breezy) - Import new upstream releases or snapshots
 5. [**cme**](https://packages.debian.org/cme) - Fix various common issues in Debian packages
 
-## Libraries for refactoring
+## Libraries/Tools for refactoring
 
 1. [**Bowler**](https://github.com/facebookincubator/Bowler) - modern Python
+2. [**rerast**](https://github.com/google/rerast) - transform Rust code using rules
 
 ## Tools for invoking code fixers
 
