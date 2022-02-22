@@ -38,7 +38,7 @@ https://github.com/rishirdua/awesome-code-formatters.
 
 ## Libraries for refactoring
 
-1. [**Bowler**](https://github.com/facebookincubator/Bowler)
+1. [**Bowler**](https://github.com/facebookincubator/Bowler) - modern Python
 
 ## Tools for invoking code fixers
 
