@@ -51,6 +51,10 @@ https://github.com/rishirdua/awesome-code-formatters.
 
 1. [**routine-update**](https://salsa.debian.org/science-team/routine-update) - run various code fixers for Debian packages
 
+## Commercial Platforms
+
+1. [**CodeFix**](https://www.devgraph.com/codefix/)
+
 ## Meta
 
 See also the list of [awesome code formatters](https://github.com/rishirdua/awesome-code-formatters).
