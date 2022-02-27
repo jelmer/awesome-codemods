@@ -18,8 +18,8 @@ https://github.com/rishirdua/awesome-code-formatters.
 ### Python
 
 1. [**yesqa**](https://github.com/asottile/yesqa) - Remove unnecessary ``#noqa`` comments
-2. [**pyupgrade**](https://github.com/assotile/pyupgrade) - upgrade syntax for newer versions of the language
-3. [**reorder_python_imports**](https://github.com/assotile/reorder_python_imports) - automatically reorder imports
+2. [**pyupgrade**](https://github.com/asottile/pyupgrade) - upgrade syntax for newer versions of the language
+3. [**reorder_python_imports**](https://github.com/asottile/reorder_python_imports) - automatically reorder imports
 4. [**teyit**](https://github.com/isidentical/teyit) - use recommended style for assert statements
 5. [**blacken-docs**](https://github.com/asottile/blacken-docs) - run black on code fragements in documentation
 6. [**setup-py-upgrade**](https://github.com/asottile/setup-py-upgrade) - upgrade setup.py to new metadata syntax
