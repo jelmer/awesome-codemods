@@ -1,7 +1,7 @@
-# Awesome Code Fixers
+# Awesome Codemods
 
 A curated list of tools that don't just point out what needs to be done
-(like static code analyzers or linters) but actually fix your code. This means
+(like static code analyzers or linters) but actually modify your code. This means
 they can e.g. be used in pre-commit scripts or with tools like
 [silver-platter](https://github.com/jelmer/silver-platter).
 
@@ -38,18 +38,23 @@ https://github.com/rishirdua/awesome-code-formatters.
 
 ## Libraries/Tools for refactoring
 
-1. [**Bowler**](https://github.com/facebookincubator/Bowler) - modern Python
-2. [**rerast**](https://github.com/google/rerast) - transform Rust code using rules
+1. [**Bowler**](https://github.com/facebookincubator/Bowler) - modern Python (deprecated, recommends libcst)
+2. [**libcst**](https://github.com/instagram/libcst) - Python
+3. [**rerast**](https://github.com/google/rerast) - transform Rust code using rules
+4. [**refex**](https://github.com/ssbr/refex) - refactor expressions in Python
+5. [**clang-libastmatcher**(https://clang.llvm.org/docs/LibASTMatchersTutorial.html#intermezzo-learn-ast-matcher-basics) - CLang AST Matchers
+6. [**asttokens**](https://github.com/gristlabs/asttokens) - token-preserving AST library for Python
+7. [**pasta**](https://github.com/google/pasta) - code rewriting for Python using AST mutation instead of string templates
 
-## Tools for invoking code fixers
+## Tools for invoking codemods
 
 1. [**pre-commit**](https://www.pre-commit.com/) - Run formatters during git pre-commit
-2. [**silver-platter**](https://github.com/jelmer/silver-platter) - Run codefixers against remote repositories and publish changes (creating PRs/pushing)
-3. [**all-repos**](https://github.com/asottile/all-repos) - Run fixers across a set of local repositories
+2. [**silver-platter**](https://github.com/jelmer/silver-platter) - Run codemods against remote repositories and publish changes (creating PRs/pushing)
+3. [**all-repos**](https://github.com/asottile/all-repos) - Run codemods across a set of local repositories
 
 ## Fix aggregators
 
-1. [**routine-update**](https://salsa.debian.org/science-team/routine-update) - run various code fixers for Debian packages
+1. [**routine-update**](https://salsa.debian.org/science-team/routine-update) - run various codemods for Debian packages
 
 ## Commercial Platforms
 
