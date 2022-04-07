@@ -55,6 +55,7 @@ https://github.com/rishirdua/awesome-code-formatters.
 ## Fix aggregators
 
 1. [**routine-update**](https://salsa.debian.org/science-team/routine-update) - run various codemods for Debian packages
+2. [**nitpick**](https://github.com/andreoliwa/nitpick) - Apply the same pre-defined settings across all your projects
 
 ## Commercial Platforms
 
