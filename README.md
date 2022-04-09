@@ -42,7 +42,7 @@ https://github.com/rishirdua/awesome-code-formatters.
 2. [**libcst**](https://github.com/instagram/libcst) - Python
 3. [**rerast**](https://github.com/google/rerast) - transform Rust code using rules
 4. [**refex**](https://github.com/ssbr/refex) - refactor expressions in Python
-5. [**clang-libastmatcher**(https://clang.llvm.org/docs/LibASTMatchersTutorial.html#intermezzo-learn-ast-matcher-basics) - CLang AST Matchers
+5. [**clang-libastmatcher**](https://clang.llvm.org/docs/LibASTMatchersTutorial.html#intermezzo-learn-ast-matcher-basics) - CLang AST Matchers
 6. [**asttokens**](https://github.com/gristlabs/asttokens) - token-preserving AST library for Python
 7. [**pasta**](https://github.com/google/pasta) - code rewriting for Python using AST mutation instead of string templates
 
