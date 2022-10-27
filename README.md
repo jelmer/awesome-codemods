@@ -37,6 +37,7 @@ https://github.com/rishirdua/awesome-code-formatters.
 3. [**apply-multiarch-hints**](https://salsa.debian.org/jelmer/lintian-brush) - Apply multi-arch fixes from https://multiarch.debian.net/
 4. [**deb-new-upstream**](https://github.com/breezy-team/breezy) - Import new upstream releases or snapshots
 5. [**cme**](https://packages.debian.org/cme) - Fix various common issues in Debian packages
+6. [**drop-mia-uploaders**](https://salsa.debian.org/jelmer/debmutate) - Remove Missing-In-Action uploaders from Maintainer/Uploader fields
 
 ## Libraries/Tools for refactoring
 
