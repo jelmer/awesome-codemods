@@ -23,6 +23,8 @@ https://github.com/rishirdua/awesome-code-formatters.
 4. [**teyit**](https://github.com/isidentical/teyit) - use recommended style for assert statements
 5. [**blacken-docs**](https://github.com/asottile/blacken-docs) - run black on code fragements in documentation
 6. [**setup-py-upgrade**](https://github.com/asottile/setup-py-upgrade) - upgrade setup.py to new metadata syntax
+7.  [**modernize**](https://github.com/pycqa/modernize) - modernize Python code for eventual Python 3 migration
+8.  [**autoflake**](https://github.com/pycqa/autoflake) - remove unused imports and unused variables
 
 ### C++
 
