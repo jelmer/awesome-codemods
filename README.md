@@ -10,10 +10,15 @@ https://github.com/rishirdua/awesome-code-formatters.
 
 ## By Environment
 
+[**General**](#general)
 [**Python**](#python)
 [**C++**](#c++)
 [**Go**](#go)
 [**Debian**](#debian)
+
+### General
+
+1. [codespell](https://github.com/codespell-project/codespell) -  check code for common misspellings
 
 ### Python
 
