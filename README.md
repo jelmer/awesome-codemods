@@ -30,10 +30,17 @@ https://github.com/rishirdua/awesome-code-formatters.
 6. [**setup-py-upgrade**](https://github.com/asottile/setup-py-upgrade) - upgrade setup.py to new metadata syntax
 7.  [**modernize**](https://github.com/pycqa/modernize) - modernize Python code for eventual Python 3 migration
 8.  [**autoflake**](https://github.com/pycqa/autoflake) - remove unused imports and unused variables
+9. [**ruff**](https://github.com/astral-sh/ruff) - ultra-fast linter that can also fix (some of the) issues it reports
 
 ### C++
 
 ### Go
+
+1. [**golangci-lint**](https://golangci-lint.run/) - linter that can also fix (some of the) issues it reports
+
+### Rust
+
+1. [**clippy**](https://github.com/rust-lang/rust-clippy) - linter that can also fix (some of the) issues it reports
 
 ### Debian
 
