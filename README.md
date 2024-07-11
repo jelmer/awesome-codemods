@@ -12,7 +12,7 @@ https://github.com/rishirdua/awesome-code-formatters.
 
 [**General**](#general)
 [**Python**](#python)
-[**C/C++**](#c/c++)
+[**C/C++**](#cc)
 [**Go**](#go)
 [**Debian**](#debian)
 
