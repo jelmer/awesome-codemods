@@ -12,7 +12,7 @@ https://github.com/rishirdua/awesome-code-formatters.
 
 [**General**](#general)
 [**Python**](#python)
-[**C++**](#c++)
+[**C/C++**](#c/c++)
 [**Go**](#go)
 [**Debian**](#debian)
 
@@ -32,7 +32,9 @@ https://github.com/rishirdua/awesome-code-formatters.
 8.  [**autoflake**](https://github.com/pycqa/autoflake) - remove unused imports and unused variables
 9. [**ruff**](https://github.com/astral-sh/ruff) - ultra-fast linter that can also fix (some of the) issues it reports
 
-### C++
+### C/C++
+
+1. [**uncrustify**](https://github.com/uncrustify/uncrustify) - Code formatting along flexible rules
 
 ### Go
 
