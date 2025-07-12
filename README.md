@@ -11,14 +11,22 @@ https://github.com/rishirdua/awesome-code-formatters.
 ## By Environment
 
 [**General**](#general)
+[**JavaScript/TypeScript**](#javascripttypescript)
 [**Python**](#python)
 [**C/C++**](#cc)
+[**C#**](#c)
 [**Go**](#go)
+[**Ruby**](#ruby)
 [**Debian**](#debian)
 
 ### General
 
 1. [codespell](https://github.com/codespell-project/codespell) -  check code for common misspellings
+
+### JavaScript/TypeScript
+
+1. [**jscodeshift**](https://github.com/facebook/jscodeshift) - toolkit for running codemods over multiple JavaScript or TypeScript files
+2. [**ts-morph**](https://github.com/dsherret/ts-morph) - TypeScript Compiler API wrapper for programmatic code changes
 
 ### Python
 
@@ -39,6 +47,10 @@ https://github.com/rishirdua/awesome-code-formatters.
 ### Go
 
 1. [**golangci-lint**](https://golangci-lint.run/) - linter that can also fix (some of the) issues it reports
+
+### Ruby
+
+1. [**RuboCop**](https://github.com/rubocop/rubocop) - static code analyzer and formatter that can automatically fix many issues
 
 ### Rust
 
