@@ -13,6 +13,7 @@ https://github.com/rishirdua/awesome-code-formatters.
 [**General**](#general)
 [**JavaScript/TypeScript**](#javascripttypescript)
 [**Python**](#python)
+[**PHP**](#php)
 [**C/C++**](#cc)
 [**C#**](#c)
 [**Go**](#go)
@@ -27,6 +28,17 @@ https://github.com/rishirdua/awesome-code-formatters.
 
 1. [**jscodeshift**](https://github.com/facebook/jscodeshift) - toolkit for running codemods over multiple JavaScript or TypeScript files
 2. [**ts-morph**](https://github.com/dsherret/ts-morph) - TypeScript Compiler API wrapper for programmatic code changes
+3. [**react-codemod**](https://github.com/reactjs/react-codemod) - codemod scripts to update React APIs
+4. [**next-codemod**](https://github.com/vercel/next-codemod) - codemod transformations for upgrading Next.js codebases
+5. [**ember-codemods**](https://github.com/ember-codemods) - collection of codemods for Ember.js
+6. [**vue-codemods**](https://github.com/SergioCrisostomo/vue-codemods) - codemod scripts to update and refactor Vue files
+7. [**angular-codemods**](https://github.com/arthurflachs/angular-codemods) - codemods for refactoring Angular applications
+8. [**@mui/codemod**](https://github.com/mui/material-ui/tree/master/packages/mui-codemod) - codemods for upgrading Material UI versions
+9. [**eslint-transforms**](https://github.com/eslint/eslint-transforms) - codemods for the ESLint ecosystem
+10. [**jest-codemods**](https://github.com/skovhus/jest-codemods) - codemods for migrating test frameworks to Jest
+11. [**5to6-codemod**](https://github.com/5to6/5to6-codemod) - transform ES5 code to ES6
+12. [**lebab**](https://github.com/lebab/lebab) - transform ES5 code to modern JavaScript
+13. [**js-codemod**](https://github.com/cpojer/js-codemod/) - codemod scripts to transform code to next generation JS
 
 ### Python
 
@@ -39,6 +51,12 @@ https://github.com/rishirdua/awesome-code-formatters.
 7.  [**modernize**](https://github.com/pycqa/modernize) - modernize Python code for eventual Python 3 migration
 8.  [**autoflake**](https://github.com/pycqa/autoflake) - remove unused imports and unused variables
 9. [**ruff**](https://github.com/astral-sh/ruff) - ultra-fast linter that can also fix (some of the) issues it reports
+10. [**django-codemod**](https://github.com/browniebroke/django-codemod) - automatically fix Django deprecations
+
+### PHP
+
+1. [**PHP-Codeshift**](https://github.com/Atanamo/PHP-Codeshift) - toolkit for running codemods over multiple PHP files
+2. [**rector**](https://github.com/rectorphp/rector) - automated refactoring and upgrading of PHP code
 
 ### C/C++
 
@@ -51,6 +69,7 @@ https://github.com/rishirdua/awesome-code-formatters.
 ### Ruby
 
 1. [**RuboCop**](https://github.com/rubocop/rubocop) - static code analyzer and formatter that can automatically fix many issues
+2. [**codeshift**](https://github.com/rajasegar/codeshift) - jscodeshift equivalent for Ruby
 
 ### Rust
 
@@ -74,17 +93,21 @@ https://github.com/rishirdua/awesome-code-formatters.
 5. [**clang-libastmatcher**](https://clang.llvm.org/docs/LibASTMatchersTutorial.html#intermezzo-learn-ast-matcher-basics) - CLang AST Matchers
 6. [**asttokens**](https://github.com/gristlabs/asttokens) - token-preserving AST library for Python
 7. [**pasta**](https://github.com/google/pasta) - code rewriting for Python using AST mutation instead of string templates
+8. [**putout**](https://github.com/coderaiser/putout) - pluggable JavaScript/TypeScript code transformer
+9. [**riceburn**](https://github.com/kenotron/riceburn) - TypeScript, JSON, and text file codemod utility
 
 ## Tools for invoking codemods
 
 1. [**pre-commit**](https://www.pre-commit.com/) - Run formatters during git pre-commit
 2. [**silver-platter**](https://github.com/jelmer/silver-platter) - Run codemods against remote repositories and publish changes (creating PRs/pushing)
 3. [**all-repos**](https://github.com/asottile/all-repos) - Run codemods across a set of local repositories
+4. [**CodeshiftCommunity**](https://github.com/CodeshiftCommunity/CodeshiftCommunity) - Community-owned global registry for codemods
 
 ## Fix aggregators
 
 1. [**routine-update**](https://salsa.debian.org/science-team/routine-update) - run various codemods for Debian packages
 2. [**nitpick**](https://github.com/andreoliwa/nitpick) - Apply the same pre-defined settings across all your projects
+3. [**mrm**](https://github.com/sapegin/mrm) - codemods for project config files
 
 ## Commercial Platforms
 
@@ -92,7 +115,11 @@ https://github.com/rishirdua/awesome-code-formatters.
 
 ## Meta
 
-See also the list of [awesome code formatters](https://github.com/rishirdua/awesome-code-formatters).
+See also the lists of:
+- [awesome code formatters](https://github.com/rishirdua/awesome-code-formatters)
+- [awesome AST](https://github.com/cowchimp/awesome-ast)
+- [awesome jscodeshift](https://github.com/sejoker/awesome-jscodeshift)
+- [awesome codemods](https://github.com/rajasegar/awesome-codemods) - JS/framework-focused list
 
 **License**
 
